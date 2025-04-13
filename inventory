@@ -2,6 +2,6 @@
 3.93.234.163
 
 [localhost:vars]
-Course: DevOps
-Trainer: Siva Kumar
-Duration: "110 Hours"
+Course=DevOps
+Trainer=Siva Kumar
+Duration="110 Hours"
