@@ -1,0 +1,11 @@
+- name: Variables from Task Level
+  hosts: localhost
+  vars:
+    Course: DevOps
+    Trainer: Siva Kumar
+    Duration: "110 Hours"
+  tasks:
+  vars:
+    Duration: "150 Hours"
+  ansible.builtin.debug:
+    msg: I am learning {{Course}}; Trainer is {{Trainer}}; Duration is {{Duration}}. 
