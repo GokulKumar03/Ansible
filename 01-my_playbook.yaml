@@ -1,0 +1,6 @@
+- name: MyPlayBook
+  hosts: web
+  tasks:
+  - name: ping my PlayBook
+    ansible.builtin.ping:
+    
