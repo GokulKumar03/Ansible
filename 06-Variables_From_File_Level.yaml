@@ -1,6 +1,6 @@
 - name: variables from files Level
   hosts: web
-  var_files:
+  vars_files:
   - variables.yaml
   tasks:
   - name: checking variables from files
