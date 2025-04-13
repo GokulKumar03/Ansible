@@ -7,6 +7,6 @@
   tasks:
   - name: check variables
     vars:
-    Duration: "150 Hours"
+      Duration: "150 Hours"
   ansible.builtin.debug:
     msg: I am learning {{Course}}; Trainer is {{Trainer}}; Duration is {{Duration}}. 
