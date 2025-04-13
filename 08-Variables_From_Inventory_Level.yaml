@@ -1,0 +1,6 @@
+- name: Variables from Inventory Level
+  hosts: localost
+  tasks:
+  - name: print variables
+    ansible.builtin.debug: 
+      msg: Username is {{USERNAME}}; Password is {{PASSWORD}}.

@@ -8,6 +8,9 @@
     prompt: Please enter your password
     private: true
   tasks:
-  - name: primt variables
+  - name: print variables
     ansible.builtin.debug: 
       msg: Username is {{USERNAME}}; Password is {{PASSWORD}}.
+
+
+# In Ansible, vars_prompt allows you to interactively prompt the user for variable values during playbook execution. This is useful for handling sensitive data like passwords or for providing flexibility in your playbooks, allowing the user to customize values at runtime.      
