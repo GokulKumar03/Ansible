@@ -1,7 +1,7 @@
 [web]
 3.93.234.163
 
-[vars:localhost]
+[localhost:vars]
 Course: DevOps
 Trainer: Siva Kumar
 Duration: "110 Hours"
