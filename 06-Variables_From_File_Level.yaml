@@ -1,7 +1,7 @@
 - name: variables from files Level
   hosts: web
   vars:
-    variables.yaml
+  - variables.yaml
   tasks:
   - name: checking variables from files
     ansible.builtin.debug:
