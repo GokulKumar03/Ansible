@@ -8,5 +8,5 @@
   - name: check variables
     vars:
       Duration: "150 Hours"
-  ansible.builtin.debug:
-    msg: I am learning {{Course}}; Trainer is {{Trainer}}; Duration is {{Duration}}. 
+    ansible.builtin.debug:
+      msg: I am learning {{Course}}; Trainer is {{Trainer}}; Duration is {{Duration}}. 
