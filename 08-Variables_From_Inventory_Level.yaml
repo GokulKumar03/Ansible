@@ -1,5 +1,5 @@
 - name: Variables from Inventory Level
-  hosts: localost
+  hosts: localhost
   tasks:
   - name: print variables
     ansible.builtin.debug: 
