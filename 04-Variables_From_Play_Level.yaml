@@ -4,6 +4,7 @@
     Course: DevOps
     Trainer: Siva Kumar
     Duration: "110 Hours"
-  tasks:  
+  tasks:
+  - name: checking variables
   ansible.builtin.debug:
       msg: I am learning {{Course}}; Trainer is {{Trainer}}; Duration is {{Duration}}.
