@@ -1,6 +1,9 @@
 [web]
 3.93.234.163
 
+[localhost]
+localhost
+
 [localhost:vars]
 Course=DevOps
 Trainer=SivaKumar
