@@ -4,3 +4,13 @@
   - name: print variables
     ansible.builtin.debug: 
       msg: I am learning {{Course}}; Trainer is {{Trainer}}; Duration is {{Duration}}. 
+
+
+# In Inventory
+# ============
+# [localhost]
+# localhost
+
+# [localhost:vars]
+# Course=DevOps From inventory
+# Trainer=Sivakumar
