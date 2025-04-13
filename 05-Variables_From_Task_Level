@@ -5,6 +5,7 @@
     Trainer: Siva Kumar
     Duration: "110 Hours"
   tasks:
+  - name: check variables
   vars:
     Duration: "150 Hours"
   ansible.builtin.debug:
