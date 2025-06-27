@@ -1,3 +1,4 @@
+#PLAY LEVEL VARIABLES AND WE CAN USE AT TASKS
 - name: variables from Play Level
   hosts: web
   vars:

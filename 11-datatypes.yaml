@@ -1,0 +1,33 @@
+- name: DataTypes
+  hosts: localhost
+  vars:
+    Name: Siva Kumar  # Key-value pair
+    Skills:  
+    - DevOps          # List
+    - Ansible
+    - Terrraform
+    - Git
+    Experience:       # Map
+      AWS: 10
+      Docker: 6
+      Kubernetes: 5
+    Trainer: true     # Boolean
+  tasks:
+  - name: Print Key-Value Pair
+    ansible.builtin.debug:
+      msg: "Name: {{Name}}"
+  - name: List
+    ansible.builtin.debug:
+      msg: "Skills: {{Skills}}"
+  - name: List
+    ansible.builtin.map:
+      msg: "Skills: {{Experience}}"
+  - name: Boolean
+    ansible.builtin.map:
+      msg: "Is he trainer: {{Trainer}}"    
+
+       
+
+
+
+
