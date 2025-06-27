@@ -1,6 +1,6 @@
 - name: Conditions
   hosts: localhost
-  become: yes
+  become: yes  # root access
   tasks:
   - name: Check whether roboshop user exist or not
     ansible.builtin.command: roboshop # When we have no ansible module, we can run command and can register that output in variable.

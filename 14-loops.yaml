@@ -3,7 +3,7 @@
   tasks:
   - name: loops
     ansible.builtin.debug:
-      msg: "Hello {{item}}"
+      msg: "Hello {{item}}" # In Ansible, item is a special variable used when looping over a list.
     loop:
     - Rahul
     - Ramesh
