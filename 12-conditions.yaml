@@ -3,20 +3,21 @@
   become: yes
   tasks:
   - name: Check whether roboshop user exist or not
-    ansible.builtin.command: roboshop
-    register: user
-    ignore_errors: true
+    ansible.builtin.command: roboshop # When we have no ansible module, we can run command and can register that output in variable.
+    register: user # user is variable name here
+    ignore_errors: true # Ansible will not exit, even it got error
   
   - name: print variable name
     ansible.builtin.debug:
       msg: "User output is: {{user}}"
   
-  - name: print print exit status or return code
-    ansible.builtin.debug:
-      msg: "User output is: {{user.rc}}"
+  - name: print exit status or return code
+    ansible.builtin.debug:  # debug is for, to print
+      msg: "status is: {{user.rc}}"   # rc is return code, like exit status. 0 is success, other than zero is fail
   
   - name: create user
     ansible.builtin.user:
       name: roboshop
     when: user.rc != 0   #condition
 
+# user.rc != 0 means user is not there. so create user roboshop.
