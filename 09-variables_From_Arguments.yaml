@@ -7,4 +7,4 @@
 
 
 
- # ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e "PERSON=GOKUL" -e "WISHES=WISHES" 09-variables_From_Arguments.yaml     
+#  ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e "PERSON=GOKUL" -e "WISHES=WISHES" 09-variables_From_Arguments.yaml     

@@ -22,11 +22,11 @@
 
 #Priority
 
-#a nsible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e "PERSON=personfromcmd" -e "WISHES=morningfromcmd" 10.vars_preference.yaml
-#1. CMD
+#ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e "PERSON=personfromcmd" -e "WISHES=morningfromcmd" 10.vars_preference.yaml
+#1. CMD  --> Command Line
 
 # ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 10.vars_preference.yaml
-#2. task 
+#2. task leve
 
 #ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 10.vars_preference.yaml
 #3. File  # After commenting vars

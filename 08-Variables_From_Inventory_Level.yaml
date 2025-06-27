@@ -6,8 +6,8 @@
       msg: I am learning {{Course}}; Trainer is {{Trainer}}; Duration is {{Duration}}. 
 
 
-# In Inventory
-# ============
+# In Inventory ie from invrntory.ini
+# ==================================
 # [localhost]
 # localhost
 
