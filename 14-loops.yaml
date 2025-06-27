@@ -1,5 +1,6 @@
 - name: item
   hosts: localhost
+  become: true
   tasks:
   - name: loops
     ansible.builtin.debug:
